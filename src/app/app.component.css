@@ -1,0 +1,55 @@
+/*reset for different web browser */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* The style for the whole web page */
+.container{
+  background-color:#b3ffe0;
+  height:1000px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*The style for the logIn container */
+.container .login_box {
+  background-color: #ffffff;
+  height:27%;
+  width: 35%;
+  display: flex;
+  justify-content: center; /* centralize all the component in the web page*/
+  align-items: center;
+  box-shadow: 0px 2px 2px #cccccc; /*set the shadow of the login box*/
+}
+/*real content in the logIn box */
+.content{
+  height:80%;
+  width:70%;
+}
+/* text setting */
+.content .textarea{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textarea input{
+  width: 100%;
+  border:none;
+  background-color: #eeeeee;
+}
+/* commit information setting */
+.commit{
+  font-size: 14px;
+  text-align: center;
+}
+/*style for setting height equal to 40 px */
+.height40{
+  height: 40px;
+}
+/*style for setting margin top equal to 15 px */
+.mg_top15{
+  margin-top: 15px;
+}
+
